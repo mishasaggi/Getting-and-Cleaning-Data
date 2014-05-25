@@ -1,9 +1,10 @@
+library(data.table)
 # Step1. Merges the training and the test sets to create one data set.
 dataTrain <- read.table("./uci/train/X_train.txt")
 labelTrain <- read.table("./uci/train/y_train.txt")
 subjectTrain <- read.table("./uci/train/subject_train.txt")
 dataTest <- read.table("./uci/test/X_test.txt")
-labelTest <- read.table("./uci/test/y_test.txt")  subject
+labelTest <- read.table("./uci/test/y_test.txt")
 subjectTest <- read.table("./uci/test/subject_test.txt")
 joinData <- rbind(dataTrain, dataTest)
 joinLabel <- rbind(labelTrain, labelTest)
