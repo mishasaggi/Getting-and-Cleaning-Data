@@ -1,5 +1,5 @@
-## Getting and Cleaning Data - Project 
-# CodeBook
+# Getting and Cleaning Data - Project 
+## CodeBook
 
 *Steps performed in run_analysis.R
 1. Read text files into tables
